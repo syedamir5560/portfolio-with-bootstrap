@@ -19,3 +19,17 @@ body{
 ::-webkit-scrollbar-track{
 background-color: rgb(128, 128, 194);
 }
+
+#img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+
+}
+
+#navbarNav li a{
+    font-size: 17px;
+    font-weight: 700;
+
+
+}
