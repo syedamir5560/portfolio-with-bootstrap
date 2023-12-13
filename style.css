@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 800vh;
+}
+::-webkit-scrollbar{
+    width: 12px;
+}
+::-webkit-scrollbar-thumb{
+    background-image: linear-gradient(rgb(70, 140, 179),papayawhip);
+    border: 1.5px solid black;
+    border-radius: 6px;
+   
+}
+::-webkit-scrollbar-track{
+background-color: rgb(128, 128, 194);
+}
