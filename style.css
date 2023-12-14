@@ -5,7 +5,9 @@
 }
 
 body {
-    height: 800vh;
+    height: auto;
+    width: 100%;
+    scroll-behavior: smooth ;
 }
 
 ::-webkit-scrollbar {
@@ -29,31 +31,77 @@ body {
     border-radius: 50%;
     background-size: cover;
     background-position: center;
-   
+
 
 }
 
-#img:hover{
+#img:hover {
     box-shadow: 5px 2px 20px rgb(18, 4, 101);
 }
 
-.navbar-nav li a{
+.navbar-nav li a {
     font-size: 20px;
     font-weight: 500;
-    color:black
-}
-.navbar-nav li a:hover{
-    border-bottom: 1.5px solid blue;
-  
+    color: black
 }
 
-#cv:hover{
+.navbar-nav li a:hover {
+    border-bottom: 1.5px solid blue;
+
+}
+
+#cv:hover {
     background-color: rgba(19, 12, 9, 0.63);
     color: skyblue;
     border-radius: 5px;
 }
 
-.navbar{
+.navbar {
     box-shadow: 1px 1px 7px rgb(18, 4, 101);
-    background-color: rgba(0, 255, 255, 0.092);
+    background-color: rgba(22, 188, 169, 0.989);
+
+}
+
+.navbar-lists .nav-link.active {
+    color: blue;
+}
+
+
+
+/* home */
+
+.banner {
+    background-image: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.banner h3 {
+    text-transform: uppercase;
+    color: rgb(16, 10, 10);
+    padding-bottom: 15px;
+    border-bottom: 8px solid rgb(149, 149, 203);
+}
+
+.banner h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(170, 135, 66)
+}
+
+.banner h1>span {
+    color: yellow;
+    text-shadow: 3px 3px 2px rgb(15, 15, 24);
+}
+
+.banner p,
+.example-selector {
+    font-size: 25px;
+    color: rgb(8, 8, 16);
+}
+
+.banner .example-selector {
+    font-size: 35px;
+    color: red;
+    font-weight: 900;
 }
